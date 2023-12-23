@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Parkinson Disease Detection</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="/">Parkinson Disease Detection</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="/">About</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="text-center custom-center">
+                    <a href="/">
+                        <img class="img-fluid w-50" alt="Parkinson Logo" src="{{ url_for('static', filename='img/logo.png') }}" />
+                    </a>
+                </div>                
+                <h4 class="text-center font-italic w-100 mt-5">Hand-drawn spiral prediction for Parkinson's disease.</h4>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <p>
+                        Parkinson's disease is a neurodegenerative disorder that primarily affects the motor system. It is characterized by symptoms such as tremors, stiffness, slowness of movement, and impaired balance. Parkinson's disease is caused by the loss of dopamine-producing cells in the brain, leading to a decrease in dopamine levels. Parkinson's disease detection involves the identification and assessment of the disease's symptoms and their severity. Traditionally, diagnosis is performed by experienced neurologists through clinical evaluations, medical history analysis, and observation of motor symptoms. However, advancements in technology have opened up opportunities for using automated systems to aid in the detection and diagnosis of Parkinson's disease.
+                    </p>
+                    <p>
+                        Machine learning and artificial intelligence techniques have been applied to develop algorithms that can assist in the detection and prediction of Parkinson's disease. These algorithms utilize various data sources, including medical imaging, voice recordings, and sensor data, to analyze patterns and extract features indicative of the disease. For instance, in the case of Parkinson's disease detection using voice recordings, algorithms can analyze speech patterns, pitch, and other vocal characteristics to identify potential markers of the disease. Similarly, in medical imaging, algorithms can analyze brain scans to detect structural changes or abnormalities associated with Parkinson's disease.
+                    </p>
+                    <p>
+                        These automated systems aim to provide objective and quantitative assessments, assisting healthcare professionals in making more accurate diagnoses and monitoring the progression of the disease. However, it's important to note that these systems are meant to be supportive tools and should not replace the expertise and judgment of medical professionals. Early detection and accurate diagnosis of Parkinson's disease are crucial for timely intervention and management of the condition. The ongoing research and development in the field of Parkinson's disease detection hold promise for improving diagnostic accuracy and enabling more effective treatment strategies for individuals living with the disease.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
